@@ -56,6 +56,13 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "fr": {
+              "baseHref": "/fr/",
+              "i18nFile": "src/locale/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "aot": true
             }
           }
         },
@@ -67,6 +74,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-i18n:build:production"
+            },
+            "fr": {
+              "browserTarget": "angular-i18n:build:fr"
             }
           }
         },
